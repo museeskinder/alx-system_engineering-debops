@@ -29,3 +29,6 @@ The file ``` hello ``` will be in the working directory You are not allowed to u
 ## 9-John_Doe
 Write a script that sets the mode of the file hello to this:
 ``` -rxxr-x-wx 1 julien julien 23 sep 20 14:25 hello ```
+## 10-mirror_permissions
+Write a script that sets the mode of the file ``` hello ``` the same as ``` olleh ```'s mode.
+- Note: the mode of ```olleh ``` will not always be 664. Make sure you script works for any mode.
