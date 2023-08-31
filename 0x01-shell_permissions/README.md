@@ -32,3 +32,18 @@ Write a script that sets the mode of the file hello to this:
 ## 10-mirror_permissions
 Write a script that sets the mode of the file ``` hello ``` the same as ``` olleh ```'s mode.
 - Note: the mode of ```olleh ``` will not always be 664. Make sure you script works for any mode.
+## 11-directories_permissions
+Create a script that adds execute permissionu to all subdirectories of the **current directory** for the owner the group owner and all the others and all others users.
+Regular files should not be changed.
+## 12-directory_permissions
+Create a script that create a directory called ``` my dir ``` with permissions 751 in the working directory.
+## 13-change_group
+Write a script that changes the group  owner to ``` school ``` for the file ``` hello ```.
+## 100-change_owner_and_group
+Write a script that changes the owner to ```vincent``` and the group owner to ``` staff ``` for all the files and directories in the working directory.
+## 101-symbolic_link_permissions
+Write a script that changes the owner and the group owner of ``` _hello ``` to ``` vincent ``` and ``` staff ``` respectively.
+## 102-if_only
+Write a script that changes the owner of the file ``` hello ``` to ``` betty ``` only if it is owned by the user ``` guillaume ```.
+## 103-Star_Wars
+Write a script that will play the StarWars IV episode in the terminal.
