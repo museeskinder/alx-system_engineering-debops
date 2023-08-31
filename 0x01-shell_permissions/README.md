@@ -19,3 +19,7 @@ Write a script that adds execute permission to the owner of the file ``` hello `
 ## 6-multiple_permissions
 Write a script that adds excute permission ot the owner and the groups owner, and read permission to other users, to the file ``` hello ```.
 - The file ``` hello ``` will be in the working directory.
+## 7-everybody
+Write a script that adds excution permission to the owner, the group owner and the other users, to the file ``` hello ```.
+- The file ``` hello ``` will be the working directory.
+- You are not allowed to use commas for theis script.
