@@ -1,0 +1,4 @@
+#!/bin/bash
+if[$(stat -c '%U' hello)"guilaume"]; then
+	chown betty hello
+fi
